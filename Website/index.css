@@ -1,0 +1,41 @@
+body{
+    font-family: Arial;
+    background-color:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;  <!--To align the items vertically-->
+    height: 100vh;
+    margin:0;
+}
+
+.container{
+    background:#fff;
+    padding: 20px;
+    box-shadow: 0 0 10px;
+    border-radius:5px;
+    width:300px;
+}
+
+h2{
+    text-align:center;
+    color:#333;
+
+}
+
+label{
+    display:block;    <!--Use block display for forms(Block by block)-->
+    margin: 10px 0 5px;
+}
+
+input,textarea,button{
+    width: 80%;
+    padding:8px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: #28a745;
+    color:white;
+    border: none;
+
+}

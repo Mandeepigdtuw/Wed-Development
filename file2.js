@@ -1,4 +1,7 @@
-var a=10;
-var b=5;
-c=a-b;
-console.log(c);
+function myfunction(){
+    document.getElementById("heading").style.color="violet";
+}
+
+function myfunction1(){
+    document.getElementById("heading").style.backgroundColor="pink";
+}
